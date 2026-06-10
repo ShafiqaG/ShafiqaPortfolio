@@ -223,6 +223,18 @@ a:hover{
     text-decoration-color: rgb(203, 188, 148);
 }
 
+a.active{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(203, 188, 148);
+    color: rgb(196, 167, 109);
+}
+
+body.dark-mode a.active{
+    color: #f5d5a8;
+}
+
 .logo{
     font-size: 5rem;
     font-family:"Niconne", cursive;
